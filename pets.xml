@@ -1,8 +1,2 @@
 <?xml version='1.0' encoding='utf-8'?>
-<pets>
-  <pet type="Dog">
-    <name>Бобик</name>
-    <age>6</age>
-    <breed>Лабрадор</breed>
-  </pet>
-</pets>
+<pet_system><owners><owner id="1" name="Иванов И.И." phone="+79991234567"><pets><pet_id>1</pet_id><pet_id>2</pet_id><pet_id>3</pet_id></pets></owner></owners><pets><pet id="1" name="Барсик" species="Собака" breed="Лабрадор" age="3" created_at="2025-11-22T12:35:10.113203" owner_id="1" type="dog" trained="True"><health_records><record id="1" date="2024-01-10" description="Плановый осмотр" vet_name="Ветеринар Петров" /></health_records><vaccinations><vaccination id="1" name="Бешенство" date="2024-01-15" next_due="2025-01-15" /></vaccinations></pet><pet id="2" name="Мурка" species="Кошка" breed="Сиамская" age="2" created_at="2025-11-22T12:35:10.113216" owner_id="1" type="cat" is_indoor="False"><health_records /><vaccinations /></pet><pet id="3" name="Кеша" species="Птица" breed="Попугай" age="1" created_at="2025-11-22T12:35:10.113219" owner_id="1" type="bird" can_fly="False"><health_records /><vaccinations /></pet></pets><vets><vet id="1" name="Петров П.П." specialization="Терапевт"><assigned_pets><pet_id>1</pet_id></assigned_pets></vet></vets><shelters><shelter id="1" name="Собаки и кошки" address="ул. Приютная, 1"><pets><pet_id>2</pet_id></pets></shelter></shelters><shops><shop id="1" name="Зоомагазин ЗооМир" address="ул. Зоологическая, 10"><pets><pet_id>3</pet_id></pets></shop></shops></pet_system>
